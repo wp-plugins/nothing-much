@@ -7,7 +7,7 @@ Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This plugin does nothing of value.
+This plugin really does nothing of value.
 
 == Description ==
 
