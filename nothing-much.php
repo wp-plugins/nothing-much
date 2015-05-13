@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Nothing Much
-Plugin URI: http://wordpress.org/plugins/nothing/
+Plugin URI: http://wordpress.org/plugins/nothing-much/
 Description: This plugin does nothing of value, and is used to test things in the plugin directory/repo.
 Author: stephdau
 Version: 1.3
