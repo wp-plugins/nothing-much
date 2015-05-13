@@ -15,7 +15,10 @@ class NothingMuch {
     }
 
     public function admin_notices() {
-        echo '<div class="updated">' . __( 'We told you this plugin didn\'t do much. :)', 'nothing-much' ) . '</div>';
+        echo '<div class="updated">'
+            . __( 'We told you this plugin didn\'t do much.', 'nothing-much' )
+            . '<br/ >' . __( 'We really meant it. :)', 'nothing-much' )
+            . '</div>';
     }
 }
 
