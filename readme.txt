@@ -1,5 +1,5 @@
 === Nothing Much ===
-Contributors: stephdau
+Contributors: stephdau, ocean90
 Tags: testing
 Requires at least: 3.0
 Tested up to: 4.2.2
