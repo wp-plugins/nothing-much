@@ -11,21 +11,21 @@ License: GPL version 2 or later - http://www.gnu.org/licenses/old-licenses/gpl-2
 */
 
 class NothingMuch {
-    public function __construct() {
-        add_action( 'admin_init', array( $this, 'load_textdomain' ) );
-        add_action( 'admin_notices', array( $this, 'admin_notices' ) );
-    }
+	public function __construct() {
+		add_action( 'admin_init', array( $this, 'load_textdomain' ) );
+		add_action( 'admin_notices', array( $this, 'admin_notices' ) );
+	}
 
-    public function load_textdomain() {
-        load_plugin_textdomain( 'nothing-much', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
-    }
+	public function load_textdomain() {
+		load_plugin_textdomain( 'nothing-much', false, dirname( plugin_basename( __FILE__ ) ) . '/languages' );
+	}
 
-    public function admin_notices() {
-        echo '<div class="updated">'
-            . __( 'We told you this plugin didn\'t do much.', 'nothing-much' )
-            . '<br/ >' . __( 'We really meant it. :)', 'nothing-much' )
-            . '</div>';
-    }
+	public function admin_notices() {
+		echo '<div class="updated">'
+			. __( 'We told you this plugin didn\'t do much.', 'nothing-much' )
+			. '<br/ >' . __( 'We really meant it. :)', 'nothing-much' )
+			. '</div>';
+	}
 }
 
 new NothingMuch();
